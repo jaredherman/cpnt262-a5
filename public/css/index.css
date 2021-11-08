@@ -1,0 +1,63 @@
+/* font Setting */
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+}
+
+h3 {
+  margin-top: 0.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  color: white;
+}
+
+a {
+  display: block;
+
+  font-size: 1.2em;
+  color: white;
+
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+/*layout the images responsively*/
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+
+  justify-content: center;
+  grid-gap: 20px;
+
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  width: 70%;
+}
+
+figure {
+  text-align: center;
+
+  line-height: 1.5em;
+}
+
+figure > img {
+  align-self: center;
+}
+
+figure > figcaption {
+  padding: 1em;
+
+  background-color: red;
+  width: 500px;
+}
+
+a:hover {
+  color: black;
+}
+
+a:active {
+  color: red;
+}

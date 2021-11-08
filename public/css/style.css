@@ -1,0 +1,42 @@
+/* logo */
+.logo {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* siteName */
+header > div {
+  text-align: center;
+  font-size: 1.2em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*navigation*/
+ul {
+  display: flex;
+  width: 66%;
+  height: 50px;
+  margin: 100px auto;
+  list-style: none;
+  background-color: red;
+}
+
+ul li {
+  flex: auto;
+  text-align: center;
+}
+
+ul li a {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  line-height: 50px;
+}
+
+/*footer*/
+footer {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%- pageTitle %> - <%=furniture.title %></title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/index.css">
+
+</head>
+
+<body>
+  <%- include('../partials/header') %>
+  <%- include('../partials/nav') %>
+
+  <main>
+    <figure>
+      <img src="/<%=furniture.pathURL %>" alt="pexels:<%=furniture.title %>" width='<%= furniture.width %>px' height='<%= furniture.height %>px'>
+      <figcaption>
+        <h1><%= furniture.title %></h1>
+        <h2><%= furniture.description %></h2>
+        <a href="<%= furniture.creditURL %>" target="_blank">Design by <%= furniture.credit %></a>
+        <a href="<%= furniture.linkURL %>" target="_blank">More Info</a>
+      </figcaption>
+    </figure>
+  </main>
+  <%- include('../partials/footer') %>
+</body>
+</html>
